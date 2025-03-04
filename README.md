@@ -14,17 +14,6 @@ Una aplicación de chat inteligente con múltiples personalidades y roles. Cada 
 
 Desarrollado con Streamlit y desplegado en Streamlit Cloud.
 
-## Configuración
-
-1. Clona el repositorio
-2. Instala las dependencias: `pip install -r requirements.txt`
-3. Configura las variables de entorno en Streamlit Cloud:
-   - TENANT_ID
-   - API_KEY
-   - AUTH_TOKEN
-   - ORCHESTRATOR_URL
-   - PROMPT_CONFIG_URL
-
 ## Uso
 
 La aplicación permite interactuar con diferentes asistentes especializados:
