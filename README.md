@@ -1,6 +1,18 @@
 # AI Assistant
 
-Una aplicación de chat inteligente con múltiples personalidades y roles.
+Una aplicación de chat inteligente con múltiples personalidades y roles. Cada asistente está especializado en diferentes áreas:
+
+- 💚 **Hibot Assistant**: Asistente oficial de Hibot
+- 📱 **Phone Sales**: Experto en ventas de teléfonos
+- 🔧 **Tech Support**: Soporte técnico profesional
+- 🎯 **Lead Generation**: Especialista en captación de leads
+- 👥 **RRHH**: Asistente de recursos humanos
+- 📚 **Education**: Tutora educativa profesional
+- ✨ **Personal Assistant**: Asistente personal y organizacional
+- 🌿 **Health**: Consejero de bienestar y salud
+- 🛍️ **E-commerce**: Experto en comercio electrónico
+
+Desarrollado con Streamlit y desplegado en Streamlit Cloud.
 
 ## Configuración
 
