@@ -1,17 +1,13 @@
 import streamlit as st
 import requests
-import os
-from dotenv import load_dotenv
 from templates import INSTRUCTION_TEMPLATES, get_template_description
 from uuid import uuid4  # Para generar conversation_ids únicos
 
-# Cargar variables de entorno
-load_dotenv()
-TENANT_ID = os.getenv("TENANT_ID")
-API_KEY = os.getenv("API_KEY")
-AUTH_TOKEN = os.getenv("AUTH_TOKEN")
-ORCHESTRATOR_URL = os.getenv("ORCHESTRATOR_URL")
-PROMPT_CONFIG_URL = os.getenv("PROMPT_CONFIG_URL")
+TENANT_ID = st.secrets["TENANT_ID"]
+API_KEY = st.secrets["API_KEY"]
+AUTH_TOKEN = st.secrets["AUTH_TOKEN"]
+ORCHESTRATOR_URL = st.secrets["ORCHESTRATOR_URL"]
+PROMPT_CONFIG_URL = st.secrets["PROMPT_CONFIG_URL"]
 
 # Inicializar sesión de chat y conversation_id
 if "messages" not in st.session_state:
